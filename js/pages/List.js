@@ -104,28 +104,28 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Nie można uzywać bota i wszystkich innych cheatów (fps bypass jest dozwolony)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Zawsze jak submitujesz record daj swój nick
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Nie trzeba mieć kliknięć tylko ale jeśli nie będzie to musisz mieć moda np. bongo cat który pokazuje kliknięcia albo cps counter
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        Trzeba pokazać attempt przed completion (chyba że przeszedleś/aś odrazu po wejściu do levela)
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        Trzeba widać endscreen (tam gdzie pisze attempty, czas i skoki)
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Nie używaj secret way'ów
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Completion musi być na youtube
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Nie przyjmujemy recordów jak level wpadł do legacy
                     </p>
                 </div>
             </div>
