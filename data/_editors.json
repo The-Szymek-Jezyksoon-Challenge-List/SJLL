@@ -11,17 +11,17 @@
     },
     {
         "role": "helper",
-        "name": "List Helper",
+        "name": "",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
         "role": "trial",
-        "name": "Trial List Helper",
+        "name": "",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
         "role": "dev",
-        "name": "List Coder",
+        "name": "",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     }
 ]
