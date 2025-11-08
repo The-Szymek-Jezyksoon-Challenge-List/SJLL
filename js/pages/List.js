@@ -102,7 +102,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Zasady Submitowania Recordów</h3>
                     <p>
                         Nie można uzywać bota i wszystkich innych cheatów (fps bypass jest dozwolony)
                     </p>
