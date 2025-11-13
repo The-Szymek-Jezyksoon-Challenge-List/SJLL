@@ -1,10 +1,9 @@
-import routes from './routes.js';
+import List from './pages/List.js';
+import Leaderboard from './pages/Leaderboard.js';
+import Roulette from './pages/Roulette.js';
 
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHashHistory(),
-  routes,
-});
-
-const app = Vue.createApp({});
-app.use(router);
-app.mount('#app');
+export default [
+    { path: '/', component: List },
+    { path: '/leaderboard', component: Leaderboard },
+    { path: '/roulette', component: Roulette },
+];
