@@ -4,15 +4,15 @@ export default {
       packs: [
         {
           name: 'Starter Pack',
-          levels: ['18STKA KACPERKA'],
+          levels: ['18stka'],
         },
         {
           name: 'Advanced Pack',
-          levels: ['AOD Challenge'],
+          levels: ['aod'],
         },
         {
           name: 'Challenge Pack',
-          levels: ['Egzamin Osmoklasisty'],
+          levels: ['egzamin'],
         },
       ],
       selectedPack: null,
@@ -33,3 +33,25 @@ export default {
       <div v-if="!selectedPack">
         <div v-for="pack in packs"
              :key="pack.name"
+             @click="openPack(pack)"
+             style="cursor:pointer; border:1px solid white; border-radius:12px; margin:10px auto; padding:15px; width:250px;">
+          <h2>{{ pack.name }}</h2>
+        </div>
+      </div>
+
+      <div v-else>
+        <button @click="backToPacks"
+                style="margin-bottom:15px; padding:5px 10px;">⬅ Wróć</button>
+        <h2>{{ selectedPack.name }}</h2>
+        <ul style="list-style:none; padding:0;">
+          <li v-for="level in selectedPack.levels"
+              :key="level"
+              style="margin:6px 0;">
+            {{ level }}
+          </li>
+        </ul>
+      </div>
+    </section>
+  `
+};
+
