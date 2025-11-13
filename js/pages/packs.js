@@ -3,19 +3,15 @@ export default {
     return {
       packs: [
         {
-          name: 'Starter',
+          name: 'Starter Pack',
           levels: ['18stka'],
-
-      selectedPack: null,
-    };
-  },
-  methods: {
-    openPack(pack) {
-      this.selectedPack = pack;
-    },
-    backToPacks() {
-      this.selectedPack = null;
-    },
-  },
-  render() {
-    return Vue.h(
+        },
+        {
+          name: 'Advanced Pack',
+          levels: ['aod'],
+        },
+        {
+          name: 'Challenge Pack',
+          levels: ['skoczek'],
+        },
+      ],
