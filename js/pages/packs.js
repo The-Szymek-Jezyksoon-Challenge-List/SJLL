@@ -34,7 +34,7 @@ export default {
         <div v-for="pack in packs"
              :key="pack.name"
              @click="openPack(pack)"
-             style="cursor:pointer; border:1px solid white; border-radius:12px; margin:10px auto; padding:15px; width:250px;">
+             style="cursor:pointer; border:1px solid red; border-radius:12px; margin:10px auto; padding:15px; width:250px;">
           <h2>{{ pack.name }}</h2>
         </div>
       </div>
