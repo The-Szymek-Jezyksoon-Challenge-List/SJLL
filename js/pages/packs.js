@@ -4,15 +4,15 @@ export default {
       packs: [
         {
           name: 'Starter Pack',
-          levels: ['18stka'],
+          levels: ['18STKA KACPERKA'],
         },
         {
           name: 'Advanced Pack',
-          levels: ['aod'],
+          levels: ['AOD Challenge'],
         },
         {
           name: 'Challenge Pack',
-          levels: ['egzamin'],
+          levels: ['Egzamin Osmoklasisty'],
         },
       ],
       selectedPack: null,
