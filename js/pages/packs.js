@@ -8,7 +8,7 @@ export default {
         },
         {
           name: 'Advanced Pack',
-          levels: ['AOD Challenge'],
+          levels: ['AOD Challenge', 'the bill'],
         },
         {
           name: 'Challenge Pack',
