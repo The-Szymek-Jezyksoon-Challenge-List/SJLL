@@ -38,7 +38,7 @@ export default {
     },
   },
   template: `
-    <section style="color:white; text-align:center; padding:20px;">
+    <section style="color:blue; text-align:center; padding:20px;">
       <h1 style="margin-bottom:20px;">🎮 Packs</h1>
 
       <div v-if="!selectedPack">
