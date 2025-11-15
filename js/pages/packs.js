@@ -5,7 +5,7 @@ export default {
         {
           name: 'Starter Pack',
           levels: [
-            { id: 'level1', name: 'Level 1' },
+            { id: 'idk', name: 'Level 1' },
             { id: 'level2', name: 'Level 2' },
             { id: 'level3', name: 'Level 3' },
           ],
@@ -13,16 +13,16 @@ export default {
         {
           name: 'Advanced Pack',
           levels: [
-            { id: 'level4', name: 'Level 4' },
-            { id: 'level5', name: 'Level 5' },
-            { id: 'level6', name: 'Level 6' },
+            { id: '127853046', name: 'fnaf lore' },
+            { id: '127851970', name: 'the bill' },
+            { id: '127982133', name: '18stka kacperka' },
           ],
         },
         {
           name: 'Challenge Pack',
           levels: [
-            { id: 'level7', name: 'Level 7' },
-            { id: 'level8', name: 'Level 8' },
+            { id: '128155266', name: 'strzaleczka' },
+            { id: '127898681', name: 'AOD Challenge' },
           ]
         }
       ],
