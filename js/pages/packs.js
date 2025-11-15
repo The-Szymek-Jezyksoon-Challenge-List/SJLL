@@ -12,7 +12,7 @@ export default {
         },
         {
           name: 'Challenge Pack',
-          levels: ['Egzamin Osmoklasisty'],
+          levels: ['Egzamin Osmoklasisty', 'strzaleczka'],
         },
       ],
       selectedPack: null,
